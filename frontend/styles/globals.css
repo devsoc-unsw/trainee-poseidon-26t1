@@ -134,13 +134,13 @@ select {
   gap: 28px;
 }
 
-.nav-links a {
+.nav-links a:not(.btn) {
   font-size: 14.5px;
   font-weight: 600;
   color: var(--ink-soft);
 }
 
-.nav-links a:hover {
+.nav-links a:not(.btn):hover {
   color: var(--ink);
 }
 
